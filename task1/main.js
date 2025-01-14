@@ -20,3 +20,13 @@ console.log(typeof int);
 
 const unique = "Hey";
 console.log(typeof Symbol(unique));
+
+const obj = {city: "Paris", population: 2, country: "France"}
+console.log(typeof obj);
+
+const arr = [1, 2, 3, 4, 5];
+console.log(typeof arr);
+
+function myList (a,b) {a+b};
+console.log(typeof myList);
+
